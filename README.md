@@ -19,7 +19,7 @@ A simple Spring Boot REST API for managing users, demonstrating:
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Java 17+ installed
+- Java 21+ installed
 - Maven installed
 
 ### Build and Run
@@ -33,13 +33,14 @@ mvn clean install
 
 mvn spring-boot:run
 
+API sample curls:
 POST /api/users
 Content-Type: application/json
-
 {
   "name": "Alice"
 }
 
 GET /api/users
 
+H2 database console is available at
 http://localhost:8080/h2-console
